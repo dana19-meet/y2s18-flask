@@ -7,6 +7,15 @@
 </head>
 <body>
 	<h1>dance</h1>
-	<p>this is the most fun one</p>
+	<div class="dancers">
+	{% if likes_same_sport==True %}
+		<ul>
+			{% for dancer in dancers %}
+			<li> {{dancer}} </li>
+			{% endfor %}
+		</ul>
+	{% endif %}
+	</div>
+	<img class="img" src="http://nicolaselby.com/wp-content/uploads/Nicola-Selby-Dancer-Portfolio-Photography-33.jpg">
 </body>
 </html>

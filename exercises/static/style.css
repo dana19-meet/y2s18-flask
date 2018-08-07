@@ -1,4 +1,13 @@
 /* Put your CSS Styling here! */
 h1{
  	background-color: blue;
- }
+}
+
+.dancers{
+	color: pink;
+}
+
+.img{
+	max-width: 500px;
+	max-height: 500px;
+}
